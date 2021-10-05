@@ -1,0 +1,3 @@
+module consumers {
+    requires services;
+}
