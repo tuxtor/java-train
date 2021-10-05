@@ -7,7 +7,14 @@ public class DemoNpe{
     }
 }
 
-record Car(String brand, int year){}
+class Car{
+    String brand;
+    int year;
+    public Car(String brand, int year){
+        this.brand = brand;
+        this.year = year;
+    }
+}
 
 class Garage{
     Car car = new Car("Honda",1999);
